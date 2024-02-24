@@ -1,6 +1,5 @@
 
 def check_func(user_number):
-    # Перевіряємо, чи введене значення є числом
     if user_number.replace('.', '', 1).replace(',', '', 1).lstrip('-').isdigit():
         number = float(user_number.replace(',', '.'))
         if number == 0:
