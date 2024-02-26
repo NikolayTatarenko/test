@@ -18,3 +18,4 @@ while True:
     else:
         result = check_func(user_input)
         print(result)
+
