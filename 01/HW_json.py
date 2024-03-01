@@ -9,6 +9,6 @@ new_dict = {
     4575675: ("Olga", 29)
 }
 
-with open("../../data.json", "w") as file:
+with open("data.json", "w") as file:
     json.dump(new_dict, file)
 
