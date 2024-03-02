@@ -7,7 +7,7 @@ with open("data.json", "r") as json_file:
     data = json.load(json_file)
 
 def generate_phone_number():
-    return ''.join([str(random.randint(0, 9)) for _ in range(10)])
+    return ''.join([str(random.randint(0, 9)) for i in range(10)])
 
 
 with open("data.csv", "w", newline="", encoding='utf-8') as csv_file:
