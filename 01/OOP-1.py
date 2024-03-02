@@ -1,8 +1,10 @@
 class Auto:
-    def __init__(self, brand, age, mark, color=None, weight=0):
+    def __init__(self, brand, age, mark, color=None, weight=None):
         self.brand = brand
         self.age = age
         self.mark = mark
+        self.color = color
+        self.weight = weight
 
 
     def move(self):
